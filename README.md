@@ -6,7 +6,7 @@ DataBase spec:
 
 -query for table "circle" = "CREATE TABLE public.circle
 (
-    id SERIAL NOT NULL DEFAULT,
+    id SERIAL NOT NULL,
     radius double precision NOT NULL,
     CONSTRAINT circle_pkey PRIMARY KEY (id)
 )
@@ -20,7 +20,7 @@ ALTER TABLE public.circle
     
 -query for table "triangle" = "CREATE TABLE public.triangle
 (
-    id SERIAL NOT NULL DEFAULT,
+    id SERIAL NOT NULL,
     base character varying COLLATE pg_catalog."default" NOT NULL,
     height character varying COLLATE pg_catalog."default" NOT NULL,
     CONSTRAINT triangle_pkey PRIMARY KEY (id)
@@ -35,7 +35,7 @@ ALTER TABLE public.triangle
 
 -query for table "square" = "CREATE TABLE public.square
 (
-    id SERIAL NOT NULL DEFAULT,
+    id SERIAL NOT NULL,
     width double precision NOT NULL,
     lenght double precision NOT NULL,
     CONSTRAINT square_pkey PRIMARY KEY (id)
