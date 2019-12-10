@@ -6,7 +6,7 @@ DataBase spec:
 
 -query for table "circle" = "CREATE TABLE public.circle
 (
-    id integer NOT NULL DEFAULT nextval('circle_id_seq'::regclass) ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    id SERIAL NOT NULL DEFAULT,
     radius double precision NOT NULL,
     CONSTRAINT circle_pkey PRIMARY KEY (id)
 )
@@ -20,7 +20,7 @@ ALTER TABLE public.circle
     
 -query for table "triangle" = "CREATE TABLE public.triangle
 (
-    id integer NOT NULL DEFAULT nextval('triangle_id_seq'::regclass) ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    id SERIAL NOT NULL DEFAULT,
     base character varying COLLATE pg_catalog."default" NOT NULL,
     height character varying COLLATE pg_catalog."default" NOT NULL,
     CONSTRAINT triangle_pkey PRIMARY KEY (id)
@@ -35,7 +35,7 @@ ALTER TABLE public.triangle
 
 -query for table "square" = "CREATE TABLE public.square
 (
-    id integer NOT NULL DEFAULT nextval('square_id_seq'::regclass) ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
+    id SERIAL NOT NULL DEFAULT,
     width double precision NOT NULL,
     lenght double precision NOT NULL,
     CONSTRAINT square_pkey PRIMARY KEY (id)
