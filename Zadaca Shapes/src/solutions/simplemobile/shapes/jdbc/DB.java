@@ -5,11 +5,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DB implements AutoCloseable {
-	private Connection conn;
+	private Connection connection;
 
 	public Connection getConn() {
-		try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/shapes", "postgres","admin")) {
-
+		try {
+			connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/shapes", "postgres","admin");
 			if (connection != null) {
 				System.out.println("Connection Succsess");
 			}
@@ -19,14 +19,15 @@ public class DB implements AutoCloseable {
 			e.printStackTrace();
 			return null;
 		}
-		return conn;
+		return connection;
 	}
 
 	@Override
 	public void close() throws SQLException {
 		// here close db connection, to be used into TRW block
 		// without finally
-		this.conn.close();
+		if(connection !=null)
+			connection.close();
 	}
 
 }

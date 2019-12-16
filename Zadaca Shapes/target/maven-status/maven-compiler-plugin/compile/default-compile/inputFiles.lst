@@ -1,10 +1,13 @@
-D:\EclipseProjects\Zadaca Shapes\src\solutions\simplemobile\shapes\Calculations.java
-D:\EclipseProjects\Zadaca Shapes\src\solutions\simplemobile\shapes\model\Square.java
-D:\EclipseProjects\Zadaca Shapes\src\solutions\simplemobile\shapes\jdbc\Query.java
-D:\EclipseProjects\Zadaca Shapes\src\solutions\simplemobile\shapes\model\Circle.java
-D:\EclipseProjects\Zadaca Shapes\src\solutions\simplemobile\shapes\jdbc\ConnectionsClass.java
-D:\EclipseProjects\Zadaca Shapes\src\solutions\simplemobile\shapes\model\Triangle.java
-D:\EclipseProjects\Zadaca Shapes\src\solutions\simplemobile\shapes\CalcImplement.java
-D:\EclipseProjects\Zadaca Shapes\src\solutions\simplemobile\shapes\App.java
-D:\EclipseProjects\Zadaca Shapes\src\solutions\simplemobile\shapes\jdbc\Queries.java
-D:\EclipseProjects\Zadaca Shapes\src\solutions\simplemobile\shapes\Shape.java
+C:\Users\Nikola Kovacevski\git\ShapesHomeWork\Zadaca Shapes\src\solutions\simplemobile\shapes\jdbc\DB.java
+C:\Users\Nikola Kovacevski\git\ShapesHomeWork\Zadaca Shapes\src\solutions\simplemobile\shapes\dao\implementation\CircleDAOImpl.java
+C:\Users\Nikola Kovacevski\git\ShapesHomeWork\Zadaca Shapes\src\solutions\simplemobile\shapes\dao\implementation\TriangeDAOImpl.java
+C:\Users\Nikola Kovacevski\git\ShapesHomeWork\Zadaca Shapes\src\solutions\simplemobile\shapes\dao\TriangleDAO.java
+C:\Users\Nikola Kovacevski\git\ShapesHomeWork\Zadaca Shapes\src\solutions\simplemobile\shapeModel\Shape.java
+C:\Users\Nikola Kovacevski\git\ShapesHomeWork\Zadaca Shapes\src\solutions\simplemobile\shapeModel\Square.java
+C:\Users\Nikola Kovacevski\git\ShapesHomeWork\Zadaca Shapes\src\solutions\simplemobile\shapes\dao\CircleDAO.java
+C:\Users\Nikola Kovacevski\git\ShapesHomeWork\Zadaca Shapes\src\solutions\simplemobile\shapes\dao\implementation\SquareDAOImpl.java
+C:\Users\Nikola Kovacevski\git\ShapesHomeWork\Zadaca Shapes\src\solutions\simplemobile\shapeModel\Triangle.java
+C:\Users\Nikola Kovacevski\git\ShapesHomeWork\Zadaca Shapes\src\solutions\simplemobile\shapes\dao\GenericDAO.java
+C:\Users\Nikola Kovacevski\git\ShapesHomeWork\Zadaca Shapes\src\solutions\simplemobile\shapes\dao\SquareDAO.java
+C:\Users\Nikola Kovacevski\git\ShapesHomeWork\Zadaca Shapes\src\solutions\simplemobile\shapeModel\Circle.java
+C:\Users\Nikola Kovacevski\git\ShapesHomeWork\Zadaca Shapes\src\solutions\simplemobile\shapes\App.java
