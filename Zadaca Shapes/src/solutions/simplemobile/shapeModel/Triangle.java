@@ -1,6 +1,10 @@
 package solutions.simplemobile.shapeModel;
 
-public class Triangle {
+import java.util.List;
+
+import solutions.simplemobile.shapes.dao.implementation.TriangeDAOImpl;
+
+public class Triangle implements Shape{
 
 	private double base;
 	private double height;
@@ -20,6 +24,26 @@ public class Triangle {
 		super();
 		this.base = base;
 		this.height = height;
+	}
+	
+	
+	
+	
+	public Triangle() {
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public double calculateArea() {
+		List<Shape> list =  new TriangeDAOImpl().getShapes();
+		double a, h, area;
+		area=0;
+		for (int i = 0; i < list.size(); i++) {
+			a=((Triangle) list.get(i)).getBase();
+			h=((Triangle) list.get(i)).getHeight();
+			double tempArea = (a*h)/2;
+			area+=tempArea;
+		}
+		return area;
 	}
 	
 	
